@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="match_parent"
+	android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:stretchColumns="0"
+		android:padding="7px">
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView style="@style/lbl_title" android:text="GrabMenu Android App" />
+			<Button android:text="Done" style="@style/btn_gray"
+				android:id="@+id/btnDone" />
+		</TableRow>
+	</TableLayout>
+	<LinearLayout android:layout_height="match_parent"
+		android:layout_width="match_parent" android:orientation="vertical"
+		android:layout_weight="1" android:background="@color/white">
+		<TextView android:text="About Us" style="@style/lbl_common"
+			android:id="@+id/lblAboutTitle" />
+		<TextView android:layout_height="match_parent"
+			android:layout_width="match_parent" android:id="@+id/lblAboutMsg"
+			android:textColor="@color/black" />
+	</LinearLayout>
+</LinearLayout>

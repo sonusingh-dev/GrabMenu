@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<style name="main_layout">		
+		<item name="android:padding">5px</item>		
+		<item name="android:orientation">vertical</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+	<style name="header_layout">		
+		<item name="android:padding">7px</item>		
+		<item name="android:stretchColumns">1</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_title" parent="@android:style/TextAppearance.Medium">
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_wh" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#004D5C</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_msg" parent="@android:style/TextAppearance">
+		<item name="android:paddingTop">5px</item>
+		<item name="android:paddingBottom">5px</item>
+		<item name="android:textColor">@color/dkgray</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_review" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_data" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_tabs" parent="@android:style/TextAppearance">
+		<item name="android:textColor">@drawable/tab_text_selector</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_data_2" parent="@android:style/TextAppearance">
+		<item name="android:paddingLeft">5px</item>
+		<item name="android:paddingRight">5px</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_name" parent="@android:style/TextAppearance">
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingLeft">5px</item>
+		<item name="android:paddingRight">5px</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="lbl_common" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#949090</item>
+	</style>
+	<style name="lbl_profile" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#949090</item>
+	</style>
+	<style name="lbl_reviews" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#949090</item>
+	</style>
+	<style name="lbl_menu" parent="@android:style/TextAppearance">
+		<item name="android:gravity">center</item>
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/dkgray</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#CEDEE5</item>
+	</style>
+	<style name="lbl_favorites" parent="@android:style/TextAppearance">
+		<item name="android:padding">5px</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#949090</item>
+	</style>
+
+	<style name="btn_gray">
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/btn_gray</item>
+	</style>
+	<style name="btn_link" parent="@android:style/TextAppearance">
+		<item name="android:textColor">@drawable/link_text_selector</item>
+		<item name="android:background">@color/white</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="btn_blue" parent="@android:style/TextAppearance">
+		<item name="android:padding">10px</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/btn_blue</item>
+	</style>
+	<style name="btn_blue_2" parent="@android:style/TextAppearance">
+		<item name="android:padding">10px</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/btn_blue_2</item>
+	</style>
+	<style name="rating_bar_small" parent="@android:style/Widget.RatingBar">
+		<item name="android:numStars">5</item>
+		<item name="android:rating">3.5</item>
+		<item name="android:stepSize">0.5</item>
+		<item name="android:minHeight">19dip</item>
+		<item name="android:maxHeight">19dip</item>
+		<item name="android:isIndicator">true</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:progressDrawable">@drawable/star_ratingbar_med</item>
+	</style>
+	<style name="rating_bar_big" parent="@android:style/Widget.RatingBar">
+		<item name="android:numStars">5</item>
+		<item name="android:stepSize">0.5</item>
+		<item name="android:minHeight">30dip</item>
+		<item name="android:maxHeight">30dip</item>
+		<item name="android:isIndicator">false</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:progressDrawable">@drawable/star_ratingbar_lar</item>
+	</style>
+</resources>

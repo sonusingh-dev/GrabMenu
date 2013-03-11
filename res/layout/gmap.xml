@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="0"
+		android:padding="7px">
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="Nearby" style="@style/lbl_title"
+				android:id="@+id/lblTitle" />
+			<Button android:text="Refine" style="@style/btn_gray"
+				android:id="@+id/btnRefineMap" />
+		</TableRow>
+	</TableLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1">
+		<com.google.android.maps.MapView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/mapview" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:clickable="true"
+			android:apiKey="0Qu2I_LFcXm7ZhxU7XGT-Sh2VIKxscTqlb7SxpQ" />
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/white"
+		android:gravity="center">
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@color/white"
+			android:src="@drawable/back" android:id="@+id/btnBack" />
+		<TableLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:padding="5px"
+			android:stretchColumns="0" android:layout_weight="1">
+			<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="Restaurant" android:id="@+id/lblRestaurant"
+					style="@style/lbl_name" />
+				<RatingBar style="@style/rating_bar_small" android:id="@+id/ratingBar" />
+			</TableRow>
+			<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="Cuisines" style="@style/lbl_data_2"
+					android:id="@+id/lblCuisines" />
+				<TextView android:gravity="right" android:text="Reviews"
+					style="@style/lbl_data_2" android:id="@+id/lblReview" />
+			</TableRow>
+			<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="Location" style="@style/lbl_data_2"
+					android:id="@+id/lblLocation" />
+				<TextView android:gravity="right" android:text="Price"
+					style="@style/lbl_data_2" android:id="@+id/lblPrice" />
+			</TableRow>
+		</TableLayout>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@color/white"
+			android:src="@drawable/next" android:id="@+id/btnNext" />
+	</LinearLayout>
+</LinearLayout>
+	
+	

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="User Ratings" style="@style/lbl_common" />
+			<TableLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:stretchColumns="0"
+				android:padding="10px">
+				<TableRow android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView style="@style/lbl_data" android:text="Food" />
+					<RatingBar style="@style/rating_bar_small"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:id="@+id/ratFood" />
+				</TableRow>
+				<TableRow android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView style="@style/lbl_data" android:text="Service" />
+					<RatingBar style="@style/rating_bar_small"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:id="@+id/ratService" />
+				</TableRow>
+				<TableRow android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView style="@style/lbl_data" android:text="Value" />
+					<RatingBar style="@style/rating_bar_small"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:id="@+id/ratValue" />
+				</TableRow>
+				<TableRow android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView style="@style/lbl_data" android:text="Atmosphere" />
+					<RatingBar style="@style/rating_bar_small"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:id="@+id/ratAtmosphere" />
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="match_parent"
+			android:padding="5px">
+			<Button android:layout_width="match_parent"
+				android:layout_height="match_parent" android:text="Add Your Review"
+				style="@style/btn_blue" android:id="@+id/btnAddUrReview"/>
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="match_parent">
+			<TextView android:text="User Reviews" style="@style/lbl_common" />
+			<ListView android:id="@+id/android:list"
+				android:layout_height="match_parent" android:layout_width="match_parent" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

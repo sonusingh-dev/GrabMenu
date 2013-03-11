@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string-array name="cities_array">
+		<item>New York City</item>
+		<item>San Francisco</item>
+		<item>Los Angeles</item>
+		<item>Philadelphia</item>
+		<item>Boston</item>
+		<item>Chicago</item>
+		<item>Washington DC</item>
+		<item>South Florida</item>
+	</string-array>	
+	<string-array name="what_array">
+		<item>Cuisines</item>
+		<item>Meals</item>
+		<item>Features</item>
+	</string-array>
+	<string-array name="where_array">
+		<item>Current Location</item>
+		<item>Neighbourhoods</item>
+		<item>Choose Area on Map</item>
+	</string-array>
+	<string-array name="cuisines_array">
+		<item>Afghan</item>
+		<item>Asian</item>
+		<item>Belgian</item>
+		<item>British</item>
+		<item>Chicken</item>
+		<item>Chinese</item>
+		<item>German</item>
+		<item>Indian</item>
+	</string-array>
+	<string-array name="meals_array">
+		<item>Breakfast</item>
+		<item>Brunch</item>
+		<item>Lunch</item>
+		<item>Dinner</item>
+	</string-array>
+	<string-array name="features_array">
+		<item>Accepts Credit Cards</item>
+		<item>Bar Scene</item>
+		<item>Delivery</item>
+		<item>Great Views</item>
+		<item>Happy Hour</item>
+		<item>Group Dining</item>
+		<item>Lunch Special</item>
+	</string-array>
+	<string-array name="sort_by_array">
+		<item>Popularity</item>
+		<item>Rating</item>
+		<item>Price</item>		
+	</string-array>
+</resources>

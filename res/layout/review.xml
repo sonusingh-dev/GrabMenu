@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1"
+		android:padding="7px">
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:text="Cancel" style="@style/btn_gray"
+				android:id="@+id/btnCancel" />
+			<TextView style="@style/lbl_title" android:text="Your Review"
+				android:id="@+id/lblTitle" />
+			<Button style="@style/btn_gray" android:text="Add Review"
+				android:id="@+id/btnAddReview" />
+		</TableRow>
+	</TableLayout>
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:background="@color/white">
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="match_parent" android:orientation="vertical">
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_height="match_parent">
+				<TextView android:text="Reviewer Name" style="@style/lbl_common" />
+				<EditText android:layout_height="wrap_content"
+					android:layout_width="match_parent" android:hint="Type name or leave blank for anonymous"
+					android:id="@+id/txtReviewerName" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+				<TextView style="@style/lbl_common" android:text="Your Ratings" />
+				<TableLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:stretchColumns="0"
+					android:padding="10px">
+					<TableRow android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						<TextView android:text="Food" style="@style/lbl_review" />
+						<RatingBar android:id="@+id/ratFood" style="@style/rating_bar_big" />
+					</TableRow>
+					<TableRow android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						<TextView android:text="Service" style="@style/lbl_review" />
+						<RatingBar android:id="@+id/ratService" style="@style/rating_bar_big" />
+					</TableRow>
+					<TableRow android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						<TextView android:text="Value" style="@style/lbl_review" />
+						<RatingBar android:id="@+id/ratValue" style="@style/rating_bar_big" />
+					</TableRow>
+					<TableRow android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						<TextView android:text="Atmosphere" style="@style/lbl_review" />
+						<RatingBar android:id="@+id/ratAtmosphere" style="@style/rating_bar_big" />
+					</TableRow>
+				</TableLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_height="match_parent">
+				<TextView style="@style/lbl_common" android:text="Title of Your Review" />
+				<EditText android:layout_height="wrap_content"
+					android:hint="e.g. Best Noodles in Town!" android:layout_width="match_parent"
+					android:id="@+id/txtReviewTitle" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_height="match_parent">
+				<TextView style="@style/lbl_common" android:text="Your Review" />
+				<EditText android:layout_height="match_parent"
+					android:layout_width="match_parent" android:inputType="textMultiLine"
+					android:gravity="top" android:id="@+id/txtReview" android:minLines="10" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

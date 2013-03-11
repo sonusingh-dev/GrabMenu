@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="app_name">MenuPages, Restaurant Search</string>
+	<string name="about"></string>
+	<string name="feedback"></string>
+	<string name="terms"></string>
+	<string name="why_sign_up"></string>
+	<string name="sort_by">Sort By</string>	
+</resources>
